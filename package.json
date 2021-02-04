@@ -1,0 +1,30 @@
+{
+  "name": "cannary_practical",
+  "version": "1.0.0",
+  "description": "Practical part of homework for Cannary",
+  "main": "index.js",
+  "scripts": {
+    "testAllWithHtmlReporting:chrome": "testcafe chrome src/tests/ --reporter html:reports/registerTestsReport.html",
+    "registerTests:chrome": "testcafe chrome src/tests/registerTests.js",
+    "loginTests:chrome": "testcafe chrome src/tests/loginTests.js",
+    "forgotPasswordTests:chrome": "testcafe chrome src/tests/forgotPasswordTests.js",
+    "marketTests:chrome": "testcafe chrome src/tests/marketTests.js",
+    "testAllWithHtmlReporting:firefox": "testcafe firefox src/tests/ --reporter html:reports/registerTestsReport.html",
+    "registerTests:firefox": "testcafe firefox src/tests/registerTests.js",
+    "loginTests:firefox": "testcafe firefox src/tests/loginTests.js",
+    "forgotPasswordTests:firefox": "testcafe firefox src/tests/forgotPasswordTests.js",
+    "marketTests:firefox": "testcafe firefox src/tests/marketTests.js"
+  },
+  "keywords": [
+    "testcafe",
+    "test",
+    "automation",
+    "web"
+  ],
+  "author": "Richard Dahmen",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.10.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
