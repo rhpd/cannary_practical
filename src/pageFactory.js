@@ -1,4 +1,3 @@
-// import { Selector } from 'testcafe'
 import { RegisterPage } from './pages/registerPage'
 import { PinCreationPage } from './pages/pinCreationPage'
 import { RegisterSuccessPage } from './pages/registerSuccessPage'
